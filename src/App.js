@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import Header from "./components/Header";
 import Map from "./components/Map";
 
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = "at_TDuozvvjYNRra3ppojNYquEt9tw4z";
 
 const App = () => {
   const [formData, setFormData] = useState({ value: "", isValid: false });

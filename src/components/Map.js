@@ -15,16 +15,6 @@ const Map = ({ lat, lng }) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MarkerComp lat={lat} lng={lng} />
-        {/* <Marker position={[lat ? lat : '21', lng ? lng : '21']}>
-              </Marker> */}
-        {/* <MarkerComp  lat={lat} lng={lng} />
-            {/* <Marker position={[lat ? lat : '21', lng ? lng : '21']}>
-                <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-                
-            </Marker> */}{" "}
-        */
       </MapContainer>
     </div>
   );
